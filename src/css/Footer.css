@@ -1,0 +1,41 @@
+.footer {
+  height: 100px;
+  text-align: center;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  padding: 0 20px;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  width: 100%;
+  text-align: left;
+}
+
+.footer a {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+p > span {
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #33a0ff;
+  border: none;
+}
+
+button a {
+  color: #fff;
+}
